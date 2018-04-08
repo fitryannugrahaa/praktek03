@@ -6,4 +6,14 @@ public class koper extends Tas {
     void throttle(){
         System.out.println(".......");
     }
+
+    public String getMerkKoper() {
+        return merkKoper;
+    }
+
+    public void setMerkKoper(String merkKoper) {
+        this.merkKoper = merkKoper;
+    }
+    
+    
 }
